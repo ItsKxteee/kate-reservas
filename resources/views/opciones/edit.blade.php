@@ -27,7 +27,30 @@
     </table>
     
     <tr>
-        <a href="" class="button">Cancelar Reserva</a><br>
+        <button onclick="cancelarReserva()">Cancelar Reserva</button>
+
+    <script>
+        function cancelarReserva() {
+            alert("Reserva cancelada");
+        }
+    </script>
+    <style>
+        button {
+           background-color: #740d0a; /* Color de fondo oscuro */
+           color: white; /* Texto en color blanco */
+           padding: 8px 16px; 
+           font-size: 14px; /* Tamaño de fuente */
+           border: none; /* Sin borde */
+           border-radius: 5px; /* Bordes redondeados */
+           cursor: pointer; /* Cambio de cursor */
+           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+        }
+
+        button:hover {
+           background-color: #2a0000; 
+        }
+        </style>
+        <br>
         <a href="{{ route('layouts.plantilla') }}" class="button">Regresar</a>
     </tr>
 
