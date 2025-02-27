@@ -1,0 +1,156 @@
+body {
+    background: linear-gradient(to bottom, #930000, #e44545);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Estilo para el título principal */
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+/* Estilo para los textos de los subtítulos */
+p, h3 {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Contenedor de los botones */
+.button-container {
+    display: flex;
+    justify-content: center; 
+    gap: 15px; 
+    flex-wrap: wrap; 
+    margin-top: 20px;
+}
+
+/* Estilo general para los botones */
+.button {
+    padding: 8px 16px; 
+    background-color: #740d0a; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px; /* Fuente más pequeña */
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border: none;
+}
+
+/* Estilo para el hover de los botones */
+.button:hover {
+    background-color: #2a0000; /* Cambio de color al pasar el cursor */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Sombra al hacer hover */
+}
+
+/* Estilo para formularios */
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    width: 200px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #8d0000;
+    outline: none;
+}
+
+/* Estilo para los títulos de secciones */
+h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Estilo general de márgenes para los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Alineación de los formularios y botones en el centro de la pantalla */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Ajuste de los formularios (solo si se usan en la vista) */
+form {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+    margin: 10px 0;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    background-color: #6e0707;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #7b0000;
+}
+
+/* Estilo para el select */
+select[name="genero"] {
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+    padding: 8px; /* Añade espacio dentro del select para hacerlo más grande */
+    font-size: 0,8em; /* Aumenta el tamaño del texto dentro del select */
+    border: 1px solid #ddd; /* Border gris claro */
+    border-radius: 15px; /* Bordes redondeados */
+    background-color: #f8f8f8; /* Color de fondo ligeramente gris */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+/* Estilo para las opciones dentro del select */
+select[name="genero"] option {
+    padding: 10px; /* Añade espacio dentro de cada opción */
+    font-size: 1.1em; /* Aumenta el tamaño de la fuente de las opciones */
+}
+/* Estilo para el input de fecha */
+input[type="date"] {
+    width: 100%; /* Hace que el input ocupe todo el ancho disponible */
+    padding: 8px; /* Añade espacio dentro del input para hacerlo más grande */
+    font-size: 1.0em; /* Aumenta el tamaño del texto dentro del input */
+    border: 1px solid #ddd; /* Border gris claro */
+    border-radius: 15px; /* Bordes redondeados */
+    background-color: #f8f8f8; /* Color de fondo ligeramente gris */
+    cursor: pointer;
+    /*margin-top: 5px;+*/
+}
+
+/* Estilo opcional para el input de fecha cuando se selecciona */
+input[type="date"]:focus {
+    border-color: #0056b3; 
+    background-color: #e9f3ff; 
+}
